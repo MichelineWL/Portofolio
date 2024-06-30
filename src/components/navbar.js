@@ -13,14 +13,6 @@ export default function Navbar({ scrollToSection }) { // Accept scrollToSection 
           </Link>
         </li>
         <li>
-          <button
-            onClick={scrollToSection}
-            className="text-white hover:underline px-4 py-2 rounded border border-white cursor-pointer"
-          >
-            Blog
-          </button>
-        </li>
-        <li>
           <Link
             to="/about"
             className="text-white hover:underline px-4 py-2 rounded border border-white cursor-pointer"
